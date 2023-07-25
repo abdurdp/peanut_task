@@ -281,7 +281,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
           bottom: 15,
           child: ElevatedButton(onPressed: () async {
             setState(() {
-              profit == 0.0;
+              profit = 0.0;
             });
             _fetchOpenTradesData();
           }, child: Text("Refresh")),
